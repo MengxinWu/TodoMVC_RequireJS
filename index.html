@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TodoMVC with Backbone.js &amp; RequireJS</title>
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+	<!-- todo app view -->
+	<section id="todoapp">
+		<header id="header">
+			<h1>todos</h1>
+
+			<!-- new todo input view -->
+			<input id="new-todo" type="text" placeholder="What needs to be done?" autofocus="autofocus">
+		</header>
+
+		<section id="main">
+
+			<!-- toggle all todos completed status -->
+			<input id="toggle-all" type="checkbox">
+			<label for="toggle-all"></label>
+
+			<!-- todo list view -->
+			<ul id="todo-list"></ul>
+		</section>
+		<footer id="footer"></footer>
+	</section>
+
+	<a href="https://github.com/tastejs/todomvc/tree/gh-pages/examples/backbone_require">Reference Webite</a>
+
+	<!-- load require.js and then load main module -->
+	<script data-main="js/main" src="js/lib/require.js"></script>
+</body>
+</html>
