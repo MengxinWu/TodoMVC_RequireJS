@@ -3,4 +3,5 @@
 # The website is: http://120.25.238.31/require/TodoMVC_Require/
 
 # Update log:
-# 2017/7/14:  First commit, completed the html and added main.js.
+# 2017/7/14: First commit, completed the html and added main.js.
+# 2017/7/16: This commit, completed all functions and added some comments.
